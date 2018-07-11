@@ -1,0 +1,43 @@
+/* main page css styles */
+body {
+	font-family: "Arial";
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.about {
+	background-color: #009999;
+	border-bottom: all;
+	text-align: center;
+	color: #fff;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.goat {
+	height: 200px;
+	width: 250px;
+	background-image: url("../img/goat.jpg");
+}
+
+.hockey {
+	height: 100px;
+	width: 200px;
+	background-image: url("../img/hockey.jpg");
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.tile .nano {
+	background-image: url("../img/science.jpg");
+}
+
