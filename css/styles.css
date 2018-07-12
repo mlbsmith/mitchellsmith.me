@@ -2,17 +2,38 @@
 body {
 	font-family: "Arial";
 	margin: 0;
+	background-image: url("../img/zurich.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
+	margin-top: 50px;
+	margin-bottom: 50px;
 	text-align: center;
+	color: #fff;
+	font-size: 50px;
+}
+
+h2 {
+	
 }
 
 .about {
-	background-color: #283747;
+	background-color: #17202A;
 	border-bottom: all;
 	text-align: center;
 	color: #fff;
+	height: 300px;
+}
+
+.header {
+	margin-top: 15px;
+	display: inline-flex;
 }
 
 .main {
@@ -23,22 +44,29 @@ h1 {
 	margin-bottom: 20px;
 }
 
-.goat {
-	height: 200px;
-	width: 250px;
-	background-image: url("../img/goat.jpg");
-}
-
 .hockey {
-	height: 100px;
-	width: 200px;
+	height: 200px;
+	width: 300px;
 	background-image: url("../img/hockey.jpg");
 	background-size: cover;
 	margin-bottom: 20px;
-	box-shadow: 5px 5px black;
+	border-radius: 10px;
 }
 
-.tile .nano {
-	background-image: url("../img/science.jpg");
+.hockey:hover {
+	height: 210px;
+	width: 315px;
+}
+
+.gap {
+	height: 300px;
+}
+
+.projects {
+	background-color: #003366;
+	border-bottom: all;
+	text-align: center;
+	color: #fff;
+	height: 600px;
 }
 
