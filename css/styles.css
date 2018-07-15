@@ -44,22 +44,31 @@ h2 {
 	margin-bottom: 20px;
 }
 
-.hockey {
+.institute {
+	background-image: url("../img/institute");
+}
+
+.tiles {
 	height: 200px;
 	width: 300px;
-	background-image: url("../img/hockey.jpg");
 	background-size: cover;
+	background-position: center;
 	margin-bottom: 20px;
 	border-radius: 10px;
 }
 
-.hockey:hover {
-	height: 210px;
-	width: 315px;
-}
-
 .gap {
 	height: 300px;
+}
+
+.music-player {
+	background-image: url("../img/music-player.png");
+	color: #000;
+}
+
+.tiles:hover {
+	cursor: pointer;
+	opacity: 0.8;
 }
 
 .projects {
@@ -68,5 +77,9 @@ h2 {
 	text-align: center;
 	color: #fff;
 	height: 600px;
+}
+
+.s4h {
+	background-image: url("../img/s4h.png");
 }
 
